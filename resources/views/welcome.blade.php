@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>raw fish</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -66,23 +66,23 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
+            <div class="top-left links">
+
+                @if(App::getLocale() == 'en')
+                  <a style="color:blue;" href="{{ url('/lang/zh-cn') }}">English</a>
+                @elseif(App::getLocale() == 'zh-cn')
+                  <a style="color:blue;" href="{{ url('/lang/en') }}">中文</a>
+                @endif
+            </div>
 
             <div class="content">
                 <div class="title m-b-md">
-                    Wensheng zhou—php C# rubyonrails Software Engineer
+                    {{ trans('common.rawFish') }}
                 </div>
-
                 <div class="links">
+                    <img src="/images/billgates_{{ App::getLocale() }}.jpg">
+                </div>
+                <div class="links">zh-cn
                     Wensheng zhou—php C# rubyonrails Software Engineer
                 </div>
             </div>
