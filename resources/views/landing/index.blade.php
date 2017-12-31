@@ -54,6 +54,7 @@
                     {{--Sorry, your browser does not support inline SVG.--}}
                 {{--</svg>--}}
 
+                
             </div>
             <div class="form-group text-center">
                 <p class="">or</p>
