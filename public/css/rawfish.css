@@ -1,0 +1,18 @@
+.login {
+	
+	font-weight:bolder;
+	font-size: 20px;
+}
+
+.language {
+	
+	font-weight:bolder;
+	font-size: 17px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+/*.english {
+	color:#20FF00;
+}*/

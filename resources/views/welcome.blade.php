@@ -82,7 +82,7 @@
                 <div class="links">
                     <img src="/images/billgates_{{ App::getLocale() }}.jpg">
                 </div>
-                <div class="links">zh-cn
+                <div class="links">
                     Wensheng zhou—php C# rubyonrails Software Engineer
                 </div>
             </div>
