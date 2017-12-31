@@ -1,0 +1,57 @@
+#app {
+	background-color: white;
+	color:black;
+}
+
+.login {
+	font-weight:bolder;
+	font-size: 20px;
+}
+
+.language {
+	font-weight:bolder;
+	font-size: 17px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.font-color-green {
+    color:#20FF00;
+}
+/*.english {
+	color:#20FF00;
+}*/
+.height_30  {
+	height: 30px;
+}
+.form-control {
+	border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 640px) {
+	.nav-mobile {		
+		display: block;
+	}
+
+	.rawfish-nav {			
+			/*border-style: dotted;*/
+			padding-left: 65%;
+		}
+
+		.rawfish-nav li {
+			list-style: none;
+		}
+}
+@media (min-width:1025px) {
+		.nav-mobile {		
+		display: none;
+	}
+}
+
+.navbar-default {
+	border-color: #000000;
+}

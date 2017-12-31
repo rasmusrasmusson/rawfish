@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('index');
+//});
+Route::get('/', 'Frontend\LandingController@index')->name('landing88');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
