@@ -3,7 +3,8 @@
 @section('content')
 <div class="row" style="padding-top: 0;width: 100%;">
     <div class="col-xs-7 col-md-7" style="border-right: 1px solid #000000;">
-        <img src="/images/header/landing-page-left.png" width="103%">
+        <img src="/images/header/landing-page-left-Headline.png" width="103%">
+        <img src="/images/header/landing-page-left-bodytext.png" width="103%">
     </div>
     <div class="col-xs-5 col-md-5">
     <div class="container" style="margin-left: 60px;width: 400px;">
@@ -54,7 +55,7 @@
                     {{--Sorry, your browser does not support inline SVG.--}}
                 {{--</svg>--}}
 
-                
+
             </div>
             <div class="form-group text-center">
                 <p class="">or</p>
