@@ -1,8 +1,7 @@
-.login {
-	
-	font-weight:bolder;
-	font-size: 20px;
-}
+	.login {		
+		font-weight:bolder;
+		font-size: 20px;
+	}
 
 .language {
 	
@@ -16,3 +15,24 @@
 /*.english {
 	color:#20FF00;
 }*/
+
+
+@media only screen and (max-width: 640px) {
+	.nav-mobile {		
+		display: block;
+	}
+
+	.rawfish-nav {			
+			/*border-style: dotted;*/
+			padding-left: 65%;
+		}
+
+		.rawfish-nav li {
+			list-style: none;
+		}
+}
+@media (min-width:1025px) {
+		.nav-mobile {		
+		display: none;
+	}
+}
