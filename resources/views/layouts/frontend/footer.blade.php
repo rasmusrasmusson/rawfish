@@ -1,1 +1,1 @@
-<div id="copyright text-center">© Copyright 2018 keivn</div>
+{{--<div id="copyright text-center">© Copyright 2018 keivn</div>--}}

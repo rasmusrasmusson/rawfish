@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<div class="row" style="background-color: white">
+<div class="row" style="width: 100%;">
 &nbsp;
 </div>
 <nav class="navbar navbar-default navbar-static-top">
@@ -11,9 +11,9 @@
         </div>
 
         <div class="collapse navbar-collapse js-navbar-collapse" id="app-navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav pull-right">
             <li ><a href="{{ url('/') }}" class="login">{{ trans('auth.login') }}</a></li>
-            <li><a  >&nbsp;</a></li>            
+            <li><a  >&nbsp;</a></li>
             <li>{!! App\Helpers\Menu::getLanguage() !!}</li>
             <li><a >&nbsp;</a></li>
             <li><a href="{{ url('/') }}" style="padding-top: 3px;"><img  height="35" src="/images/header/navigator.png"></a></li>
@@ -22,14 +22,14 @@
         </div>
 
         <!-- mobile -->
-        <div class="nav-mobile rawfish-nav">          
-          <ul>        
+        <div class="nav-mobile rawfish-nav">
+          <ul>
             <li style="float: left;padding-top: 5px;">
             {!!  App\Helpers\Menu::getLanguage() !!}
             </li>
          <li>
             <a href="/" style=" "><img  height="30" src="/images/header/navigator.png"></a>  </li>
-          </ul>   
-         
+          </ul>
+        </div>
         <!-- mobile -->
 </nav>
