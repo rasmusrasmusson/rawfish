@@ -12,31 +12,31 @@
         <form class="form-horizontal" method="POST" action="{{ route('register') }}">
             <div class="form-group">
                 <label for="exampleFormControlInput1">Invitation code</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="0029837">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Nickname</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="kevingates">
             </div>
 
             <div class="form-group">
                 <div class="col-md-6" style="padding-left: 0;">
                     <label for="validationCustom01">First name</label>
-                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="kevin" required>
                 </div>
                 <div class="col-md-6">
                     <label for="validationCustom02">Last name</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="gates" required>
                 </div>
             </div>
 
             <div class="form-group">
                 <label for="exampleFormControlInput1">Email / Mobile number</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email / mobile number">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">New password</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="password">
             </div>
             <div class="form-group">
                 <p style="font-size: 10px;">By signing up with Raw Fish you agree to our Terms,Data use
