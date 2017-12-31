@@ -12,9 +12,9 @@
 
         <div class="collapse navbar-collapse js-navbar-collapse" id="app-navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-            <li ><a href="{{ url('/') }}" class="login">LOGIN</a></li>
+            <li ><a href="{{ url('/') }}" class="login">{{ trans('auth.login') }}</a></li>
             <li><a  >&nbsp;</a></li>            
-            <li><a href="{{ url('/') }}" class="language">中 / <span class='english' style="color: #20FF00;">En</span></a></li>
+            <li>{!! App\Helpers\Menu::getLanguage() !!}</li>
             <li><a >&nbsp;</a></li>
             <li><a href="{{ url('/') }}" style="padding-top: 3px;"><img  height="35" src="/images/header/navigator.png"></a></li>
             <li><a >&nbsp;</a></li>
@@ -25,9 +25,10 @@
         <div class="nav-mobile rawfish-nav">          
           <ul>        
             <li style="float: left;padding-top: 5px;">
-            <a href="{{ url('/') }}" class="language" >中 / <span class='english' style="color: #20FF00;">En</span></a></li>   
+            {!!  App\Helpers\Menu::getLanguage() !!}
+            </li>
          <li>
-            <a href="{{ url('/') }}" style=" "><img  height="30" src="/images/header/navigator.png"></a>  </li>
+            <a href="/" style=" "><img  height="30" src="/images/header/navigator.png"></a>  </li>
           </ul>   
          
         <!-- mobile -->
