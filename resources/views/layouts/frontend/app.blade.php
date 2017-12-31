@@ -13,5 +13,6 @@
 
 </div>
 <script src="{{ asset('js/app.js') }}"></script>
+@yield('page-scripts-bottom-after-app')
 </body>
 </html>

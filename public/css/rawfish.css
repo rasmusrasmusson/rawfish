@@ -29,7 +29,9 @@
 	height: 30px;
 }
 .form-control {
+	border: none;
 	border-bottom: 1px solid black;
+
 }
 
 @media only screen and (max-width: 640px) {

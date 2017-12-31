@@ -16,4 +16,10 @@ return [
     'failed' => 'These credentials do not match our records.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
     'login' => '登录',
+    'invitationCode' => '邀请码',
+    'nickname' => '昵称',
+    'firsName' => '名字',
+    'lastName' => '姓',
+    'emailMobileNumber' => '邮箱 / 手机号码',
+    'newPassword' => '新密码',
 ];

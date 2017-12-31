@@ -17,4 +17,10 @@ return [
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
     'login' => 'LOGIN',
 
+    'invitationCode' => 'Invitation code',
+    'nickname' => 'Nickname',
+    'firsName' => 'First name',
+    'lastName' => 'Last name',
+    'emailMobileNumber' => 'Email / Mobile number',
+    'newPassword' => 'New password',
 ];
