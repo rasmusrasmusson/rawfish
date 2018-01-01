@@ -22,4 +22,12 @@ return [
     'lastName' => '姓',
     'emailMobileNumber' => '邮箱 / 手机号码',
     'newPassword' => '新密码',
+
+    'become' => '成为',
+    'aRawFish' => '一条生鱼',
+    'ourTermsAgreement' => '通过注册生鱼您同意我们的条款，数据使用',
+    'policy' => '政策',
+    'and' => '和',
+    'cookie' => 'Cookie',
+    'use' => '使用',    
 ];

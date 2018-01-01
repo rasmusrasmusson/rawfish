@@ -23,4 +23,12 @@ return [
     'lastName' => 'Last name',
     'emailMobileNumber' => 'Email / Mobile number',
     'newPassword' => 'New password',
+    'become' => 'BECOME',
+    'aRawFish' => 'A RAWFISH',
+    'ourTermsAgreement' => 'By signing up with Raw Fish you agree to our Terms,Data use',
+    'policy' => 'policy',
+    'and' => 'and',
+    'cookie' => 'Cookie',
+    'use' => 'use',
+    
 ];

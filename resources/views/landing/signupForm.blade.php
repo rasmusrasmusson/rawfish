@@ -38,8 +38,8 @@
         @endif
     </div>
     <div class="form-group">
-        <p style="font-size: 10px;">By signing up with Raw Fish you agree to our Terms,Data use
-            <a href="#" class="font-color-green">policy</a> and <a href="#" class="font-color-green">Cookie</a> use.
+        <p style="font-size: 10px;">{{ trans('auth.ourTermsAgreement') }}
+            <a href="#" class="font-color-green">{{ trans('auth.policy') }}</a> {{ trans('auth.and') }} <a href="#" class="font-color-green">{{ trans('auth.cookie') }}</a> {{ trans('auth.use') }}.
         </p>
     </div>
 

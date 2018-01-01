@@ -9,7 +9,7 @@
     <div class="col-xs-5 col-md-5">
     <div class="container" style="margin-left: 60px;width: 400px;">
         <h2 class='height_30'>&nbsp;</h2>
-        <h1 style="color:black;font-weight:bolder;">BECOME<br>A RAWFISH</h1>
+        <h1 style="color:black;font-weight:bolder;">{{ trans('auth.become') }}<br>{{ trans('auth.aRawFish') }}</h1>
         @include('landing.signupForm')
     </div>
     </div>
